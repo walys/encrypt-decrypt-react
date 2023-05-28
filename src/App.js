@@ -45,25 +45,25 @@ function App() {
         <button
           className="btn btn-left"
           style={{
-            backgroundColor: screen === "encrypt" ? "#5e35b1" : "#5e35b130",
+            backgroundColor: screen === "encrypt" ? "#B13535" : "#5e35b130",
           }}
           onClick={() => {
             switchScreen("encrypt");
           }}
         >
-          Encrypt
+          Criptografar
         </button>
 
         <button
           className="btn btn-right"
           style={{
-            backgroundColor: screen === "decrypt" ? "#1e88e5" : "#1e88e530",
+            backgroundColor: screen === "decrypt" ? "#B13535" : "#1e88e530",
           }}
           onClick={() => {
             switchScreen("decrypt");
           }}
         >
-          Decrypt
+          Descriptografar
         </button>
       </div>
 
@@ -76,12 +76,12 @@ function App() {
           name="text"
           type="text"
           placeholder={
-            screen === "encrypt" ? "Enter Text" : "Enter Encrypted Data"
+            screen === "encrypt" ? "Insira uma senha" : "Inserir dados criptografados"
           }
         />
 
         <button className="btn submit-btn" onClick={handleClick}>
-          {screen === "encrypt" ? "Encrypt" : "Decrypt"}
+          {screen === "encrypt" ? "Criptografar" : "Descrriptografar"}
         </button>
       </div>
 

@@ -54,14 +54,14 @@ input {
 
 .submit-btn {
   border-radius: 0.2rem;
-  background-color: #5e35b1;
+  background-color: #B13535;
   margin-top: 1rem;
 }
 
 .content {
   width: 26rem;
   margin-top: 2rem;
-  border: 2px dashed #8865C7;
+  border: 2px dashed #B13535;
   padding: 1rem 1rem;
   border-radius: 0.5rem;
 }
@@ -69,7 +69,7 @@ input {
 label {
   font-size: 0.8rem;
   font-weight: 500;
-  color: #a984ee;
+  color: #B13535;
 }
 
 p {
